@@ -1,0 +1,16 @@
+<root>
+  <data>
+    <item>
+      <name>slackbot</name>
+      <time>1466689713.000002</time>
+      <message>Announcement! *You can now ask me Slack-related questions &#8212; and I'll respond.* If I don't understand (I'm only a bot, after all), I'll search Slack's &lt;https://get.slack.help/hc/en-us|Help Center&gt;.
+
+*But wait &#8212; there's more!* Wondering where to jot personal notes, if not here? *Now you can send direct messages to yourself.* Lovely for listing to-dos, drafting messages, or pasting important links. Just select the plus sign (*+*) next to the direct messages list, and search for your own name. :tada:</message>
+    </item>
+    <item>
+      <name>slackbot</name>
+      <time>1466604629.000002</time>
+      <message>If you get lost and want some more help, look at our &lt;https://ssec-metobs.slack.com/help|Help Center&gt; or our &lt;https://ssec-metobs.slack.com/getting-started/users#channels|guide to getting started on Slack&gt;. Otherwise, have a lovely day :wave:</message>
+    </item>
+  </data>
+</root>

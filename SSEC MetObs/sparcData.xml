@@ -1,0 +1,89 @@
+<root>
+  <data>
+    <item>
+      <name>davidh</name>
+      <time>1453997409.000015</time>
+      <message>&lt;@U03L85HNF&gt;, &lt;@U038Z6LG9&gt; the SPARC AERI is now on webmads</message>
+    </item>
+    <item>
+      <name>davidh</name>
+      <time>1453996378.000014</time>
+      <message>I&#8217;d say give it 10 to 15 minutes for all the cron jobs to run but I think everything is switched over to an &#8220;SSEC&#8221; experiment.</message>
+    </item>
+    <item>
+      <name>davidh</name>
+      <time>1453993817.000013</time>
+      <message>alright I think I&#8217;m going to move things over and switch the experiment over to a single &#8220;SSEC&#8221; experiment. If we run in to problems with that we&#8217;ll have to come up with something else. I see pros and cons for both ways that we&#8217;ve thought of so far, but one &#8220;SSEC&#8221; experiment requires less human intervention.</message>
+    </item>
+    <item>
+      <name>davidh</name>
+      <time>1453992925.000012</time>
+      <message>Since right now we would have to change it by hand for every year I think it makes sense to make one SSEC directory</message>
+    </item>
+    <item>
+      <name>davidh</name>
+      <time>1453992906.000011</time>
+      <message>yeah I think we left it with I was going to decide later what to do, but then I never did decide before the end of the year.</message>
+    </item>
+    <item>
+      <name>eriko</name>
+      <time>1453992889.000010</time>
+      <message>I&#8217;m open to changing to something different</message>
+    </item>
+    <item>
+      <name>eriko</name>
+      <time>1453992854.000009</time>
+      <message>I thought that we talked about this when the trailer came back from CHARMS. Hence the SSEC_2015 and the plan to break up the random data while at the building into chunks by year?</message>
+    </item>
+    <item>
+      <name>davidh</name>
+      <time>1453992141.000008</time>
+      <message>thoughts?</message>
+    </item>
+    <item>
+      <name>davidh</name>
+      <time>1453992135.000007</time>
+      <message>&#8220;here&#8221; meaning at the SSEC</message>
+    </item>
+    <item>
+      <name>davidh</name>
+      <time>1453992087.000006</time>
+      <message>ok, I think we need to make it one experiment directory called &#8220;SSEC&#8221; when it&#8217;s here. It gets too complicated with changing things.</message>
+    </item>
+    <item>
+      <name>eriko</name>
+      <time>1453992050.000005</time>
+      <message>Should have done it early this month, but I didn&#8217;t think of it. I changed it about 5:30 last night. Yes, it was on my list to tell you today.</message>
+    </item>
+    <item>
+      <name>davidh</name>
+      <time>1453991992.000004</time>
+      <message>ok, you need to tell me when you do that because there is stuff running on the metobs servers that depends on the experiment names</message>
+    </item>
+    <item>
+      <name>eriko</name>
+      <time>1453991954.000003</time>
+      <message>yes</message>
+    </item>
+    <item>
+      <name>davidh</name>
+      <time>1453991940.000002</time>
+      <message>&lt;@U04LDJXDC&gt;: did you change the SPARC experiment to SSEC_2016?</message>
+    </item>
+    <item>
+      <name>davidh</name>
+      <time>1451417016.000004</time>
+      <message>k thanks</message>
+    </item>
+    <item>
+      <name>eriko</name>
+      <time>1451416964.000003</time>
+      <message>delorme inreach explorer</message>
+    </item>
+    <item>
+      <name>davidh</name>
+      <time>1451416927.000002</time>
+      <message>&lt;@U04LDJXDC&gt;, could you remind me what the model for the GPS was during PECAN?</message>
+    </item>
+  </data>
+</root>

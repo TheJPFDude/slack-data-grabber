@@ -1,0 +1,189 @@
+<root>
+  <data>
+    <item>
+      <name>elikrenzke</name>
+      <time>1468519154.000002</time>
+      <message>I had a meeting with Lori Borg, Aronne Merrelli, and &lt;@U07HKAP46&gt; about an existing LBLRTM framework. It might be possible to eliminate a lot of the 'heavy lifting' through that framework, but I need to investigate it further. Not all of it is up on gitlab but some of it can be found here: &lt;https://gitlab.ssec.wisc.edu/merrelli/pyrtmwrap-git/tree/master/pyrtmwrap&gt;
+
+I still need to look into it a little bit more before I can figure out what is actually usable for our purposes though.
+
+&lt;@U038Z6LG9&gt; &lt;@U03L85HNF&gt; &lt;@U0B32PNMU&gt;</message>
+    </item>
+    <item>
+      <name>gero</name>
+      <time>1467999256.000041</time>
+      <message>Let&#8217;s meet at your desk then.  We&#8217;ll find some chairs</message>
+    </item>
+    <item>
+      <name>elikrenzke</name>
+      <time>1467999002.000039</time>
+      <message>I was just under the impression you guys wanted to see me run through some of it at some point instead of just handwaving away what certain things do.</message>
+    </item>
+    <item>
+      <name>elikrenzke</name>
+      <time>1467998927.000038</time>
+      <message>Well, it would be more difficult for me to run code in 623, but it's fine either way. We could discuss some things more generally, then move down to my desk to show off some of the code. Either way works.</message>
+    </item>
+    <item>
+      <name>gero</name>
+      <time>1467998753.000037</time>
+      <message>Should we meet there, or the conference room in 623?</message>
+    </item>
+    <item>
+      <name>elikrenzke</name>
+      <time>1467998503.000036</time>
+      <message>Are we meeting at my desk? If so, we're going to need some more chairs.</message>
+    </item>
+    <item>
+      <name>elikrenzke</name>
+      <time>1467991327.000035</time>
+      <message>That works for me as well.</message>
+    </item>
+    <item>
+      <name>coda</name>
+      <time>1467990590.000034</time>
+      <message>me too</message>
+    </item>
+    <item>
+      <name>dennyhackel</name>
+      <time>1467990563.000033</time>
+      <message>works for me</message>
+    </item>
+    <item>
+      <name>gero</name>
+      <time>1467989566.000032</time>
+      <message>Hey, is there a good time we could meet today to look at your recent progress on the project?  Would 1pm work?  Coda and Denny were also interested in checking it out</message>
+    </item>
+    <item>
+      <name>elikrenzke</name>
+      <time>1467844343.000031</time>
+      <message>Right. Sites are meant to be instrument agnostic. The configuration process is still a work in progress. Perhaps we can meet sometime and talk about it. In short, a site env can be a user. I still need to work out a good syntax for calling a single run though since setup would become cumbersome. We should definitely go over this in a meeting though since I/O and naming conventions could get messy if I am not careful.</message>
+    </item>
+    <item>
+      <name>coda</name>
+      <time>1467842892.000030</time>
+      <message>Hey &lt;@U1D0W6EVB&gt;, this cli/virtual environment is cool, but seems like it might be aeri specific. The Lblrtm tool shouldn't be creating spaces. Rather, users of lblrtm, e.g. Spectral cal would</message>
+    </item>
+    <item>
+      <name>elikrenzke</name>
+      <time>1467841478.000025</time>
+      <message>&lt;@U03L85HNF&gt;, &lt;@U038Z6LG9&gt;, &lt;@U0B32PNMU&gt;: I added you guys to the gitlab project. The cli package is essentially done. (I just need to fix some import hacks since I changed where main was and implement some functionality from actionlib.) I am still working on the individual packages, but some more insight into how the project should be structured is certainly welcome. I'll quickly provide some details about the current structure:
+
+The working name `mercy` will be what I intend to be the final product. I included old code just for reference when pulling/cloning -- but ideally, I will be working towards moving away from it to form smaller modules.
+
+I decided to make site environment functionality separate from `cli` in the `/management/actionlib/` package so that we are able to work faster in the future when we want to go beyond a cli.
+
+The `management` package also contains the `templib` modules, which is pretty simple at the moment. The basic idea is that a temporary working directory is created upon entering a context manager, and at the end of the context manager's life cycle, the temporary directory is automagically garbage collected. Also included in `templib` is a simple symlink module that I plan to revisit with added functionality.
+
+This leads to a more idiomatic syntax like:
+
+``` with TemporaryWorkspace(...) as temp:
+    .... Do "stuff" ...
+
+(Temporary Workspace was removed when "stuff" was completed.)
+```
+
+The `resources` directory is currently a placeholder directory since I do not want to violate any license by distributing the real LBLRTM.
+
+The `tests` package will contain tests when all of the packages start coming together some more. Right now, I have only created some test cases for creating a site environment.
+
+Edit: I have also been neglecting some logging functionality, but I will get to that. There will be two loggers... One for "local" logging a single site environment at a time, and another "global" logger for logging _everything_ ever. New logs will probably have to be created daily, and eventually archived.</message>
+    </item>
+    <item>
+      <name>elikrenzke</name>
+      <time>1466788343.000018</time>
+      <message>More information will be up on GitLab by next week. I am still trying to integrate existing plotting/math/etc code with my tempworkspace.py module, but it requires some finer editing in the original source that takes up quite a bit of time. It is also being re-written in Python 3.5.1, so it will be a bit of a hack at first.</message>
+    </item>
+    <item>
+      <name>elikrenzke</name>
+      <time>1466788056.000017</time>
+      <message>So, that's what I am working on right now. The functions that are able to actually edit configurations are also independent of the command line argument code too, so it will be possible to easily make local IPython interfaces or web apps.</message>
+    </item>
+    <item>
+      <name>elikrenzke</name>
+      <time>1466787872.000016</time>
+      <message>There will be configuration specific args also, but those are some of the essentials. Everything has a help command also, so the documentation just kind of writes itself, and available in any terminal.
+
+An example would be: `program create --name 'SGP-01'`
+
+Running all sites through LBLRTM manually might look like: `program run --all` and running a calibration might look like: `program cal --name 'SGP-01'`
+
+Edit: As you can see, I am trying to make the commands behave similarly to conda.</message>
+    </item>
+    <item>
+      <name>elikrenzke</name>
+      <time>1466787787.000013</time>
+      <message>I am making a bunch of command-line arguments for site configuration functionality. As of right now I have:
+```
+--create
+--remove
+--list
+--inspect
+--activate
+--deactivate
+--clone
+--import
+--export
+```
+
+If you have any questions about how they actually work, or have any other ideas, send them my way. By default, when you create a site, it won't be active, so you can still start a configuration without having to worry about 'bad' data.</message>
+    </item>
+    <item>
+      <name>elikrenzke</name>
+      <time>1466787783.000012</time>
+      <message>Here is some stuff I sent:</message>
+    </item>
+    <item>
+      <name>elikrenzke</name>
+      <time>1466787732.000011</time>
+      <message>______________________________
+That was written by &lt;@U0B32PNMU&gt;.
+_______________________________</message>
+    </item>
+    <item>
+      <name>elikrenzke</name>
+      <time>1466787691.000010</time>
+      <message>In the case that ARM archive AERI data is provided, the user can be prompted to either (i) enter the ch1 originalLaserWavenumber manually, or (ii) omit the calculation for ch1.</message>
+    </item>
+    <item>
+      <name>elikrenzke</name>
+      <time>1466787667.000009</time>
+      <message>In this case, the code should be able to read in the ARM archive data formats (e.g. sgp*.cdf above) for AERI data and the various 4-5 common formats for radiosonde data.</message>
+    </item>
+    <item>
+      <name>elikrenzke</name>
+      <time>1466787608.000008</time>
+      <message>Phase B would be to extend the operational spectral cal code, so that it can handle user defined input.  These would be for cases where we're running AERIs that are not ARM sites, or if we want to go back and reprocess data from the ARM archive.</message>
+    </item>
+    <item>
+      <name>elikrenzke</name>
+      <time>1466787579.000007</time>
+      <message>Phase A of your work should be to get this all running as cleanly as possible, for all existing sites, and make it easy to add future mobile sites.</message>
+    </item>
+    <item>
+      <name>mwestphall</name>
+      <time>1466787516.000006</time>
+      <message>&lt;@U07HKAP46|mwestphall&gt; has joined the channel</message>
+    </item>
+    <item>
+      <name>coda</name>
+      <time>1466787516.000005</time>
+      <message>&lt;@U03L85HNF|coda&gt; has joined the channel</message>
+    </item>
+    <item>
+      <name>gero</name>
+      <time>1466787516.000004</time>
+      <message>&lt;@U0B32PNMU|gero&gt; has joined the channel</message>
+    </item>
+    <item>
+      <name>elikrenzke</name>
+      <time>1466787516.000003</time>
+      <message>&lt;@U1D0W6EVB|elikrenzke&gt; has joined the channel</message>
+    </item>
+    <item>
+      <name>dennyhackel</name>
+      <time>1466787515.000002</time>
+      <message>&lt;@U038Z6LG9|dennyhackel&gt; has joined the channel</message>
+    </item>
+  </data>
+</root>

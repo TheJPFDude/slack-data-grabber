@@ -1,0 +1,189 @@
+<root>
+  <data>
+    <item>
+      <name>dennyhackel</name>
+      <time>1468438988.000019</time>
+      <message>if there is a race condition where we don&#8217;t control the other file it doesn&#8217;t matter if we put another if in there does it?</message>
+    </item>
+    <item>
+      <name>rayg</name>
+      <time>1468438931.000018</time>
+      <message>close enough</message>
+    </item>
+    <item>
+      <name>rayg</name>
+      <time>1468438791.000017</time>
+      <message>&lt;@U19B60VQQ|rayg&gt; has joined the channel</message>
+    </item>
+    <item>
+      <name>dennyhackel</name>
+      <time>1468438779.000016</time>
+      <message>&lt;@U19B60VQQ&gt;</message>
+    </item>
+    <item>
+      <name>dennyhackel</name>
+      <time>1468438775.000015</time>
+      <message>rayg [2:29 PM]  
+that hax goes away if they fix FTSW to write data to acqeaeri's working directory when run, instead of \E-AERI
+
+[2:29]  
+or if there's another way to set the output directory for FTSW</message>
+    </item>
+    <item>
+      <name>dennyhackel</name>
+      <time>1468438767.000014</time>
+      <message>Coda&#8217;s fix seemed to get rid of the cygpath freezes</message>
+    </item>
+    <item>
+      <name>dennyhackel</name>
+      <time>1468438744.000013</time>
+      <message>rayg [2:28 PM]  
+so iirc we record the files that were present before and after acqeaeri is run, then moving those that are new</message>
+    </item>
+    <item>
+      <name>dennyhackel</name>
+      <time>1468438731.000012</time>
+      <message>I don&#8217;t know but ABB is investigating all restarts</message>
+    </item>
+    <item>
+      <name>dennyhackel</name>
+      <time>1468438714.000011</time>
+      <message>rayg [2:27 PM]  
+I don't recall
+
+[2:27]  
+is this error happening regularly?
+
+[2:28]  
+ok, this hax was due to FTSW writing to E-AERI/ instead of /temp like it was supposed to</message>
+    </item>
+    <item>
+      <name>dennyhackel</name>
+      <time>1468438696.000010</time>
+      <message>[acqeaeri_hax 08:26:00 DEBUG] about to move new files in /cygdrive/c/E-AERI to /cygdrive/c/temp
+
+[2:25]  
+Is the EAERIHousekeeping file disappearing?</message>
+    </item>
+    <item>
+      <name>dennyhackel</name>
+      <time>1468438681.000009</time>
+      <message>rayg [2:22 PM]  
+you want to remove the members of new_fileset that overlap with fileset was the original intent
+
+[2:22]  
+but it's complaining that there are filenames in fileset that are already removed from new_fileset
+
+[2:22]  
+which most likely happens if someone is moving or deleting files at the same time as the ingest code
+
+[2:23]  
+race condition</message>
+    </item>
+    <item>
+      <name>dennyhackel</name>
+      <time>1468438655.000008</time>
+      <message>[txt2hkspc 08:26:01 DEBUG] scene types: ['A', 'H', 'S', 'U', 'T', 'W', 'V', 'Y', 'X', 'Z']
+[txt2hkspc 08:26:01 INFO] mirror position count = 10.0, mirror position = 72.0  
+[txt2hkspc 08:26:01 INFO] using scene type "\" from filename
+[txt2hkspc 08:26:01 DEBUG] center time provided as 2016-07-13 08:25:30.071500
+[txt2hkspc 08:26:01 DEBUG] max vector length is 3
+[txt2hkspc 08:26:01 DEBUG] {}
+[txt2hkspc 08:26:01 DEBUG] extra scalars: {'ABBmaxTempDiff': 0.0, 'sceneMirrorPosition': 72.0, 'sceneViewDuration': 16.344999999999999, 'HBBmaxTempDiff': 0.0, 'sceneMirrorAngle': n$
+[txt2hkspc 08:26:01 DEBUG] writing the output file \temp\H159HK.SPC  
+[txt2hkspc 08:26:01 DEBUG] ref2BlackbodyApexTemp has only 0 values!
+[txt2hkspc 08:26:01 DEBUG] ref2BlackbodyBottomRimTemp has only 0 values!
+[txt2hkspc 08:26:01 DEBUG] JulianDay has only 0 values!
+[txt2hkspc 08:26:01 DEBUG] HHMMSS has only 0 values!
+[txt2hkspc 08:26:01 DEBUG] ref1BlackbodyApexTemp has only 0 values!  
+[txt2hkspc 08:26:01 DEBUG] ref2BlackbodyTopRimTemp has only 0 values!
+[txt2hkspc 08:26:01 DEBUG] ref1BlackbodyBottomRimTemp has only 0 values!
+[txt2hkspc 08:26:01 DEBUG] YYMMDD has only 0 values!
+[txt2hkspc 08:26:01 DEBUG] Time has only 0 values!
+[txt2hkspc 08:26:01 DEBUG] ref1BlackbodyTopRimTemp has only 0 values!
+[txt2hkspc 08:26:01 DEBUG] done
+[Status 08:26:01 INFO] writing housekeeping for H159
+[sigmove 08:26:01 INFO] H159.SIG(19)
+[Status 08:26:01 INFO] data for H159 transferred to science data processing
+[Sequencer 08:26:01 INFO] committing seq.lab for completed scene H159
+[Tidy 08:26:01 INFO] moving SPC files to zipfile \AE160713\SPC_EAERI_160713.zip
+[Tidy 08:26:01 DEBUG] no spc files to purge from science work dir!
+[Status 08:26:01 INFO] cleaned up work directory of finished SPC files
+[Ingest 08:26:01 INFO] trailer thread exiting
+[Ingest 08:26:01 ERROR] list.remove(x): x not in list
+
+[2:21]  
+why would you need an if
+
+[2:21]  
+it is for f in fileset, there is no f if there is no f</message>
+    </item>
+    <item>
+      <name>dennyhackel</name>
+      <time>1468438629.000007</time>
+      <message>&lt;@U038Z6LG9|dennyhackel&gt; uploaded a file: &lt;https://ssec-metobs.slack.com/files/dennyhackel/F1RF4DY9E/ingest_-_copy_8h27.log|ingest - Copy 8h27.log&gt;</message>
+    </item>
+    <item>
+      <name>dennyhackel</name>
+      <time>1468438602.000006</time>
+      <message>rayg [2:18 PM]  
+`new_fileset.remove( f )` should be `if f in new_fileset: new_fileset.remove( f )`
+
+[2:18]  
+though I'd like to know which file it's complaining about, since that could be significant
+
+[2:19]  
+optionally could do `else: LOG.debug("expected %s but it is not present" % f)`</message>
+    </item>
+    <item>
+      <name>dennyhackel</name>
+      <time>1468438588.000005</time>
+      <message>def myhax( src_directory, fileset, work_directory ):
+  """ generated function which uses shutil to move files not in files_not_to_move to cwd
+  """
+  LOG.debug('about to move new files in %s to %s' % (src_directory, work_directory))
+  new_fileset = []
+  # find the new files and move them to the working directory
+  for root, dirs, files in os.walk( src_directory :disappointed:
+     if root == src_directory:
+        new_fileset = files
+  for f in fileset:
+     new_fileset.remove( f )
+  LOG.debug('files that have been added: %s' % repr(new_fileset))
+  for f in new_fileset:
+      src = "%s/%s" % ( src_directory, f )
+      dst = "%s/%s" % ( work_directory, f )
+      LOG.debug('moving %s to %s' % (src,dst))
+      shutil.move( src, dst )</message>
+    </item>
+    <item>
+      <name>dennyhackel</name>
+      <time>1468438573.000004</time>
+      <message>relavant code in acqeaeri_hax.py</message>
+    </item>
+    <item>
+      <name>dennyhackel</name>
+      <time>1468438546.000003</time>
+      <message>[Ingest 160713 08:26:01 ERROR] list.remove(x): x not in list
+Traceback (most recent call last):
+ File "/cygdrive/c/aeri_run/aeri.egg/Ingest.py", line 645, in go
+   AERI.ingestLoop(sequences_count=sequences_count)
+ File "/cygdrive/c/aeri_run/aeri.egg/Ingest.py", line 415, in ingestLoop
+   self.ingestOneSet(async=True)
+ File "/cygdrive/c/aeri_run/aeri.egg/Ingest.py", line 376, in ingestOneSet
+   ifgTask.wait()
+ File "/cygdrive/c/aeri_run/aeri.egg/Eaeri.py", line 339, in wait
+   self._hax()
+ File "/cygdrive/c/aeri_run/aeri.egg/acqeaeri_hax.py", line 41, in __call__
+   myhax( self.s, self.f, self.d )
+ File "/cygdrive/c/aeri_run/aeri.egg/acqeaeri_hax.py", line 73, in myhax
+   new_fileset.remove( f )
+ValueError: list.remove(x): x not in list</message>
+    </item>
+    <item>
+      <name>dennyhackel</name>
+      <time>1468438521.000002</time>
+      <message>&lt;@U038Z6LG9|dennyhackel&gt; has joined the channel</message>
+    </item>
+  </data>
+</root>

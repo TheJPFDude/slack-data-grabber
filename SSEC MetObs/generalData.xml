@@ -1,0 +1,294 @@
+<root>
+  <data>
+    <item>
+      <name>bogeunchoi</name>
+      <time>1468246643.000003</time>
+      <message>test post please ignore</message>
+    </item>
+    <item>
+      <name>bogeunchoi</name>
+      <time>1468246483.000002</time>
+      <message>added an integration to this channel: &lt;https://ssec-metobs.slack.com/services/B1QHSA1EH|outgoing-webhook&gt;</message>
+    </item>
+    <item>
+      <name>rayg</name>
+      <time>1468012324.000021</time>
+      <message>&lt;@U038Z6LG9&gt;: &lt;https://realpython.com/blog/python/getting-started-with-the-slack-api-using-python-and-flask/&gt;</message>
+    </item>
+    <item>
+      <name>tjwagner</name>
+      <time>1467817060.000020</time>
+      <message>&lt;@U1P8QHRHU|tjwagner&gt; has joined the channel</message>
+    </item>
+    <item>
+      <name>davidh</name>
+      <time>1467733259.000019</time>
+      <message>&lt;http://nvie.com/posts/a-successful-git-branching-model/&gt;</message>
+    </item>
+    <item>
+      <name>davidh</name>
+      <time>1467733129.000018</time>
+      <message>&lt;@U07HKAP46&gt;, &lt;@U03MSAYMY&gt;, &lt;@U1D0W6EVB&gt;, &lt;@U1JF6H4MC&gt;, &lt;@U1K7XHHB8&gt;: This is a nice model for structuring git branches and general workflow. In most of my projects we try to stick with at least the `master` and `develop` branches concept.</message>
+    </item>
+    <item>
+      <name>davidh</name>
+      <time>1467420312.000017</time>
+      <message>You tell me that the day i install influxdb on metobs01</message>
+    </item>
+    <item>
+      <name>brucef</name>
+      <time>1467418936.000016</time>
+      <message>interesting possible alternative to InfluxDB: &lt;http://www.chronix.io/&gt;</message>
+    </item>
+    <item>
+      <name>mwestphall</name>
+      <time>1467386304.000015</time>
+      <message>&lt;@U03CHDXBN&gt;:  thanks!</message>
+    </item>
+    <item>
+      <name>davidh</name>
+      <time>1467385165.000014</time>
+      <message>&lt;@U07HKAP46&gt;: &lt;http://www.seleniumhq.org/&gt;</message>
+    </item>
+    <item>
+      <name>dennyhackel</name>
+      <time>1467381502.000013</time>
+      <message>AOSS Tools for Lower Atmosphere Science</message>
+    </item>
+    <item>
+      <name>dennyhackel</name>
+      <time>1467340220.000012</time>
+      <message>AOSS Tools for Lofty Atmospheric Science - ATLAS (Titan god of endurance and astronomy, condemned to hold up the sky for eternity)</message>
+    </item>
+    <item>
+      <name>rayg</name>
+      <time>1467230402.000011</time>
+      <message>Generalized Environmental Research Observations?</message>
+    </item>
+    <item>
+      <name>gero</name>
+      <time>1467229626.000010</time>
+      <message>What about Ground And Rooftop Climate Instrumentation for Atmospheres?</message>
+    </item>
+    <item>
+      <name>rayg</name>
+      <time>1467152519.000009</time>
+      <message>still working on backronyming GO in there. got nuthin'.</message>
+    </item>
+    <item>
+      <name>elikrenzke</name>
+      <time>1467149478.000008</time>
+      <message>That's fair.</message>
+    </item>
+    <item>
+      <name>davidh</name>
+      <time>1467149466.000007</time>
+      <message>If we are getting technical i guess the group of people managing it would be the AMIS team or group, but they manage a suite of instruments</message>
+    </item>
+    <item>
+      <name>elikrenzke</name>
+      <time>1467149375.000006</time>
+      <message>Suite makes it sound like a product instead of a group, but I have nothing better to offer. :thinking_face:</message>
+    </item>
+    <item>
+      <name>davidh</name>
+      <time>1467146338.000004</time>
+      <message>thoughts on AMIS as the acronym for the AOSS instrument group: AOSS Meteorological Instrument Suite?</message>
+    </item>
+    <item>
+      <name>bogeunchoi</name>
+      <time>1466604617.000003</time>
+      <message>&lt;@U1K7XHHB8|bogeunchoi&gt; has joined the channel</message>
+    </item>
+    <item>
+      <name>hdowney</name>
+      <time>1466436564.000002</time>
+      <message>&lt;@U1JF6H4MC|hdowney&gt; has joined the channel</message>
+    </item>
+    <item>
+      <name>davidh</name>
+      <time>1464794139.000004</time>
+      <message>&lt;@U03CHKSRL&gt;: any idea why &#8220;MendotaBuoy_metdata.dat&#8221; aren&#8217;t being created anymore on metobs-vmhost?</message>
+    </item>
+    <item>
+      <name>elikrenzke</name>
+      <time>1464708020.000003</time>
+      <message>&lt;@U1D0W6EVB|elikrenzke&gt; has joined the channel</message>
+    </item>
+    <item>
+      <name>rayg</name>
+      <time>1463434980.000002</time>
+      <message>&lt;@U19B60VQQ|rayg&gt; has joined the channel</message>
+    </item>
+    <item>
+      <name>davidh</name>
+      <time>1461772929.000002</time>
+      <message>FYI everyone (&lt;@U038YQSQN&gt;, &lt;@U03L85HNF&gt;, &lt;@U038Z6LG9&gt;) the cron daemon on metobs01 died. I&#8217;ve restarted it.</message>
+    </item>
+    <item>
+      <name>brucef</name>
+      <time>1450383611.000024</time>
+      <message>McV has a lot of good THREDDS and OpenDAP integration</message>
+    </item>
+    <item>
+      <name>davidh</name>
+      <time>1450383595.000023</time>
+      <message>well crap. It seems like a lot of people here are getting in to OGC standards (SOS) and OpenDAP for accessing data and describing sensors (SensorML)</message>
+    </item>
+    <item>
+      <name>brucef</name>
+      <time>1450383526.000022</time>
+      <message>No one around here used it so I just dropped the whole stack</message>
+    </item>
+    <item>
+      <name>brucef</name>
+      <time>1450383480.000021</time>
+      <message>We had constant issues with their Tomcat app running out of memory</message>
+    </item>
+    <item>
+      <name>brucef</name>
+      <time>1450383414.000020</time>
+      <message>5+ years ago we were running the full Hyrax OpenDAP stack along with a THREDDS server</message>
+    </item>
+    <item>
+      <name>davidh</name>
+      <time>1450383350.000019</time>
+      <message>&lt;@U038YQSQN&gt;: hearing a lot about OpenDAP at AGU and THREDDS: &lt;http://www.unidata.ucar.edu/software/thredds/current/tds/TDS.html&gt;</message>
+    </item>
+    <item>
+      <name>davidh</name>
+      <time>1450127281.000018</time>
+      <message>Yeah maybe. I&#8217;ll need to make a decision eventually about how to do frontend stuff for any dashboard-like stuff that I work on. But the more important part of that will probably be pushing data updates for stuff like a realtime meteorogram plot.</message>
+    </item>
+    <item>
+      <name>brucef</name>
+      <time>1450127140.000017</time>
+      <message>We can chat about it more when you get back if you have the interest</message>
+    </item>
+    <item>
+      <name>brucef</name>
+      <time>1450127120.000016</time>
+      <message>All the DOM and data handling is done on the client side by Angular so you won't see it got back to the server when something changes (page refreshes)</message>
+    </item>
+    <item>
+      <name>brucef</name>
+      <time>1450127062.000015</time>
+      <message>For example, here's a really simple Angular app you can get to outside the building: &lt;http://sips.ssec.wisc.edu/archive/availability&gt;</message>
+    </item>
+    <item>
+      <name>brucef</name>
+      <time>1450127019.000014</time>
+      <message>All the data handling is via AJAX style requests.</message>
+    </item>
+    <item>
+      <name>davidh</name>
+      <time>1450126805.000013</time>
+      <message>I guess I don&#8217;t know how an angular application is served. It can just be HTML, but do you have plans for AJAX or anything else asynchronous-y</message>
+    </item>
+    <item>
+      <name>brucef</name>
+      <time>1450126740.000012</time>
+      <message>I'm not sure we've decided yet. I think at this point multiple pages/apps per function</message>
+    </item>
+    <item>
+      <name>davidh</name>
+      <time>1450126669.000011</time>
+      <message>I think so</message>
+    </item>
+    <item>
+      <name>brucef</name>
+      <time>1450126649.000010</time>
+      <message>Are you asking if we're going to do a single page app for the entire site or multiple apps per function?</message>
+    </item>
+    <item>
+      <name>davidh</name>
+      <time>1450123295.000009</time>
+      <message>&lt;@U038YQSQN&gt;: do you expect to use it in single page applications or as part of another larger website that happens to have application functionality mixed in? &#8230;I&#8217;m not sure if that question makes sense.</message>
+    </item>
+    <item>
+      <name>davidh</name>
+      <time>1450123150.000008</time>
+      <message>ok cool</message>
+    </item>
+    <item>
+      <name>brucef</name>
+      <time>1450123108.000007</time>
+      <message>For the SIPS, most, if not all of our upcoming tools will be using Angular</message>
+    </item>
+    <item>
+      <name>brucef</name>
+      <time>1450123071.000006</time>
+      <message>I've done a bunch of stuff in Angular, and thus far it's my goto client side framework</message>
+    </item>
+    <item>
+      <name>davidh</name>
+      <time>1450122822.000005</time>
+      <message>&lt;@U038YQSQN&gt;: how did you feel about Angular?</message>
+    </item>
+    <item>
+      <name>davidh</name>
+      <time>1450122798.000004</time>
+      <message>I copied it to my larch location</message>
+    </item>
+    <item>
+      <name>davidh</name>
+      <time>1450122678.000003</time>
+      <message>I&#8217;m at AGU in San Francisco and can&#8217;t access that server. I&#8217;ll have to try later.</message>
+    </item>
+    <item>
+      <name>brucef</name>
+      <time>1450122044.000002</time>
+      <message>&lt;@U03CHDXBN&gt;: Here's a quick and dirty example HTML form (in Angular) as a frontend to an API providing station time series data that I put together for the Antarctic weather stations:  &lt;http://sipsdev.ssec.wisc.edu/~brucef/form.html&gt;</message>
+    </item>
+    <item>
+      <name>davidh</name>
+      <time>1446818451.000002</time>
+      <message>&lt;http://arm-doe.github.io/pyart/&gt;</message>
+    </item>
+    <item>
+      <name>gero</name>
+      <time>1442871486.000003</time>
+      <message>&lt;@U0B32PNMU|gero&gt; has joined the channel</message>
+    </item>
+    <item>
+      <name>lstefanski</name>
+      <time>1442845718.000002</time>
+      <message>&lt;@U0B22TWGL|lstefanski&gt; has joined the channel</message>
+    </item>
+    <item>
+      <name>davidh</name>
+      <time>1442238440.000007</time>
+      <message>and just for fun I fixed the afternoon images for HSRL too</message>
+    </item>
+    <item>
+      <name>davidh</name>
+      <time>1442237125.000006</time>
+      <message>also the setup.py for the metobs.webapp package does not make me happy</message>
+    </item>
+    <item>
+      <name>davidh</name>
+      <time>1442237106.000005</time>
+      <message>fixed, but I still need to figure out why the afternoon images don&#8217;t show up</message>
+    </item>
+    <item>
+      <name>brucef</name>
+      <time>1442235780.000004</time>
+      <message>I do believe it's still running on the SVN code</message>
+    </item>
+    <item>
+      <name>davidh</name>
+      <time>1442235762.000003</time>
+      <message>I don&#8217;t see a gitlab repos for the HSRL and it looks like the webapp might be running on the subversion repository version of things. Sound familiar?</message>
+    </item>
+    <item>
+      <name>brucef</name>
+      <time>1442235268.000002</time>
+      <message>&lt;@U03CHDXBN&gt;: Sure, feel free</message>
+    </item>
+    <item>
+      <name>davidh</name>
+      <time>1442007024.000002</time>
+      <message>&lt;@U038YQSQN&gt;: FYI &lt;@U04LDJXDC&gt; pointed out that the HSRL quicklooks on the GAMIS site are pointing to the wrong HSRL. The quicklooks are of the HSRL that is currently in the SPARC trailer (bagoHSRL), but the one on the roof is currently aHSRL. I talked to Joe Garcia and the `site` parameter in the URL needs to be changed to 29 instead of 13. It looks like this is set in the old metobs hsrl package (not sure if its still this way) in metobs/instruments/gvhsrl/__init__.py:SITE. Would you like me to try to tackle this? I haven&#8217;t looked at the current install for a long time.</message>
+    </item>
+  </data>
+</root>

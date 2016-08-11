@@ -1,0 +1,504 @@
+<root>
+  <data>
+    <item>
+      <name>hdowney</name>
+      <time>1468953592.000013</time>
+      <message>&lt;@U0B32PNMU&gt; Here are plots of all the vertical velocity data</message>
+    </item>
+    <item>
+      <name>hdowney</name>
+      <time>1468953449.000012</time>
+      <message>&lt;@U1JF6H4MC|hdowney&gt; uploaded a file: &lt;https://ssec-metobs.slack.com/files/hdowney/F1T6A97C7/sparc_iop14_vertical_velocity.png|SPARC IOP14 Vertical Velocity.png&gt;</message>
+    </item>
+    <item>
+      <name>hdowney</name>
+      <time>1468953402.000011</time>
+      <message>&lt;@U1JF6H4MC|hdowney&gt; uploaded a file: &lt;https://ssec-metobs.slack.com/files/hdowney/F1T64236C/sparc_iop13_vertical_velocity.png|SPARC IOP13 Vertical Velocity.png&gt;</message>
+    </item>
+    <item>
+      <name>hdowney</name>
+      <time>1468953390.000010</time>
+      <message>&lt;@U1JF6H4MC|hdowney&gt; uploaded a file: &lt;https://ssec-metobs.slack.com/files/hdowney/F1T6LD5B4/sparc_iop12_vertical_velocity.png|SPARC IOP12 Vertical Velocity.png&gt;</message>
+    </item>
+    <item>
+      <name>hdowney</name>
+      <time>1468953376.000009</time>
+      <message>&lt;@U1JF6H4MC|hdowney&gt; uploaded a file: &lt;https://ssec-metobs.slack.com/files/hdowney/F1T4PB4M9/sparc_iop7_vertical_velocity.png|SPARC IOP7 Vertical Velocity.png&gt;</message>
+    </item>
+    <item>
+      <name>hdowney</name>
+      <time>1468953363.000008</time>
+      <message>&lt;@U1JF6H4MC|hdowney&gt; uploaded a file: &lt;https://ssec-metobs.slack.com/files/hdowney/F1T4P9DGT/sparc_iop2_vertical_velocity.png|SPARC IOP2 Vertical Velocity.png&gt;</message>
+    </item>
+    <item>
+      <name>hdowney</name>
+      <time>1468953352.000007</time>
+      <message>&lt;@U1JF6H4MC|hdowney&gt; uploaded a file: &lt;https://ssec-metobs.slack.com/files/hdowney/F1T4P7H19/clamps_iop24_vertical_velocity.png|CLAMPS IOP24 Vertical Velocity.png&gt;</message>
+    </item>
+    <item>
+      <name>hdowney</name>
+      <time>1468953334.000006</time>
+      <message>&lt;@U1JF6H4MC|hdowney&gt; uploaded a file: &lt;https://ssec-metobs.slack.com/files/hdowney/F1T5Z6P0C/clamps_iop13_vertical_velocity.png|CLAMPS IOP13 Vertical Velocity.png&gt;</message>
+    </item>
+    <item>
+      <name>hdowney</name>
+      <time>1468953322.000005</time>
+      <message>&lt;@U1JF6H4MC|hdowney&gt; uploaded a file: &lt;https://ssec-metobs.slack.com/files/hdowney/F1T60NS7Q/clamps_iop12_vertical_velocity.png|CLAMPS IOP12 Vertical Velocity.png&gt;</message>
+    </item>
+    <item>
+      <name>hdowney</name>
+      <time>1468953310.000004</time>
+      <message>&lt;@U1JF6H4MC|hdowney&gt; uploaded a file: &lt;https://ssec-metobs.slack.com/files/hdowney/F1T69BJF9/clamps_iop2_vertical_velocity.png|CLAMPS IOP2 Vertical Velocity.png&gt;</message>
+    </item>
+    <item>
+      <name>hdowney</name>
+      <time>1468598000.000003</time>
+      <message>So yes, a lot of the high-altitude data is cut out already</message>
+    </item>
+    <item>
+      <name>hdowney</name>
+      <time>1468597930.000002</time>
+      <message>&lt;@U0B32PNMU&gt; Also, I should mention that these images are already cropped down to the lowest few km.</message>
+    </item>
+    <item>
+      <name>hdowney</name>
+      <time>1468433981.000009</time>
+      <message>&lt;@U1P8QHRHU&gt; 1.01</message>
+    </item>
+    <item>
+      <name>tjwagner</name>
+      <time>1468426476.000008</time>
+      <message>What intensity cutoff are you using?</message>
+    </item>
+    <item>
+      <name>hdowney</name>
+      <time>1468426256.000007</time>
+      <message>&lt;@U1JF6H4MC|hdowney&gt; uploaded a file: &lt;https://ssec-metobs.slack.com/files/hdowney/F1RB8SPHR/clamps_iop12_filtered.png|CLAMPS IOP12 Filtered.png&gt;</message>
+    </item>
+    <item>
+      <name>hdowney</name>
+      <time>1468426242.000006</time>
+      <message>&lt;@U0B32PNMU&gt; Just tried it, intensity works as a good filter:</message>
+    </item>
+    <item>
+      <name>hdowney</name>
+      <time>1468424593.000005</time>
+      <message>and SPARC&#8217;s data on 7/10 has wind speeds of over 800 m/s</message>
+    </item>
+    <item>
+      <name>hdowney</name>
+      <time>1468424558.000004</time>
+      <message>CLAMPS&#8217;s lidar was overheating on 6/10 according to the mission summary</message>
+    </item>
+    <item>
+      <name>hdowney</name>
+      <time>1468424515.000003</time>
+      <message>CLAMPS on 6/10 and SPARC on 7/10 are the two dates, both have only one or two wind profiles</message>
+    </item>
+    <item>
+      <name>hdowney</name>
+      <time>1468424470.000002</time>
+      <message>&lt;@U1P8QHRHU&gt; The datafiles exist, they just don&#8217;t really have usable data:</message>
+    </item>
+    <item>
+      <name>tjwagner</name>
+      <time>1468355454.000013</time>
+      <message>Wind direction is missing?  That&#8217;s weird.  Do the datafiles exist?  If so, do they contain u and v components?  (If you need to know what those are, let me know.)</message>
+    </item>
+    <item>
+      <name>gero</name>
+      <time>1468353325.000012</time>
+      <message>One question, should some of the higher altitude wind data be blocked out for low S/N?  Or are those already taken into account?</message>
+    </item>
+    <item>
+      <name>gero</name>
+      <time>1468353198.000011</time>
+      <message>Great, thanks!</message>
+    </item>
+    <item>
+      <name>hdowney</name>
+      <time>1468353173.000010</time>
+      <message>Some of the operations were missing wind direction data for either CLAMPS or SPARC, so I just  plotted temperature for those ones.</message>
+    </item>
+    <item>
+      <name>hdowney</name>
+      <time>1468353142.000009</time>
+      <message>&lt;@U0B32PNMU&gt;, &lt;@U1P8QHRHU&gt; Those are all the wind direction/temperature profiles for LLJ operations</message>
+    </item>
+    <item>
+      <name>hdowney</name>
+      <time>1468353112.000008</time>
+      <message>&lt;@U1JF6H4MC|hdowney&gt; uploaded a file: &lt;https://ssec-metobs.slack.com/files/hdowney/F1R3SEWKZ/sparc_iop24_temperature.png|SPARC IOP24 Temperature.png&gt;</message>
+    </item>
+    <item>
+      <name>hdowney</name>
+      <time>1468353095.000007</time>
+      <message>&lt;@U1JF6H4MC|hdowney&gt; uploaded a file: &lt;https://ssec-metobs.slack.com/files/hdowney/F1R267WG3/clamps_iop24_temp_direction.png|CLAMPS IOP24 Temp:Direction.png&gt;</message>
+    </item>
+    <item>
+      <name>hdowney</name>
+      <time>1468353077.000006</time>
+      <message>&lt;@U1JF6H4MC|hdowney&gt; uploaded a file: &lt;https://ssec-metobs.slack.com/files/hdowney/F1R3S7T8X/sparc_iop14_temp_direction.png|SPARC IOP14 Temp:Direction.png&gt;</message>
+    </item>
+    <item>
+      <name>hdowney</name>
+      <time>1468353064.000005</time>
+      <message>&lt;@U1JF6H4MC|hdowney&gt; uploaded a file: &lt;https://ssec-metobs.slack.com/files/hdowney/F1R42QP8S/sparc_iop7_temp_direction.png|SPARC IOP7 Temp:Direction.png&gt;</message>
+    </item>
+    <item>
+      <name>hdowney</name>
+      <time>1468353053.000004</time>
+      <message>&lt;@U1JF6H4MC|hdowney&gt; uploaded a file: &lt;https://ssec-metobs.slack.com/files/hdowney/F1R3S4NTZ/clamps_iop7_temperature.png|CLAMPS IOP7 Temperature.png&gt;</message>
+    </item>
+    <item>
+      <name>hdowney</name>
+      <time>1468346909.000003</time>
+      <message>&lt;@U1JF6H4MC|hdowney&gt; uploaded a file: &lt;https://ssec-metobs.slack.com/files/hdowney/F1R2SSRJ5/sparc_iop13_temp_direction.png|SPARC IOP13 Temp:Direction.png&gt;</message>
+    </item>
+    <item>
+      <name>hdowney</name>
+      <time>1468346892.000002</time>
+      <message>&lt;@U1JF6H4MC|hdowney&gt; uploaded a file: &lt;https://ssec-metobs.slack.com/files/hdowney/F1R2XBABC/sparc_iop13_temp_direction.png|SPARC IOP13 Temp:Direction.png&gt;</message>
+    </item>
+    <item>
+      <name>hdowney</name>
+      <time>1468261902.000013</time>
+      <message>&lt;@U1JF6H4MC|hdowney&gt; uploaded a file: &lt;https://ssec-metobs.slack.com/files/hdowney/F1QLLK3AS/sparc_iop12_temp_direction.png|SPARC IOP12 Temp:Direction.png&gt;</message>
+    </item>
+    <item>
+      <name>hdowney</name>
+      <time>1468261893.000012</time>
+      <message>&lt;@U1JF6H4MC|hdowney&gt; uploaded a file: &lt;https://ssec-metobs.slack.com/files/hdowney/F1QLJBPC4/clamps_iop12_temp_direction.png|CLAMPS IOP12 Temp:Direction.png&gt;</message>
+    </item>
+    <item>
+      <name>hdowney</name>
+      <time>1468261886.000011</time>
+      <message>&lt;@U1JF6H4MC|hdowney&gt; uploaded a file: &lt;https://ssec-metobs.slack.com/files/hdowney/F1QLPS4MN/sparc_iop2_temp_direction.png|SPARC IOP2 Temp:Direction.png&gt;</message>
+    </item>
+    <item>
+      <name>hdowney</name>
+      <time>1468261879.000010</time>
+      <message>&lt;@U1JF6H4MC|hdowney&gt; uploaded a file: &lt;https://ssec-metobs.slack.com/files/hdowney/F1QLJ8SSG/clamps_iop2_temp_direction.png|CLAMPS IOP2 Temp:Direction.png&gt;</message>
+    </item>
+    <item>
+      <name>gero</name>
+      <time>1468261566.000009</time>
+      <message>Could you make .jpg or .png files so it&#8217;s easier to see natively on slack?  (.eps are best for posters, but harder to open here.)  Thanks!</message>
+    </item>
+    <item>
+      <name>hdowney</name>
+      <time>1468261133.000008</time>
+      <message>&lt;@U0B32PNMU&gt; &lt;@U1P8QHRHU&gt; Here are some temperature/wind direction plots I&#8217;ve completed. Is there anything specific I should be looking for?</message>
+    </item>
+    <item>
+      <name>hdowney</name>
+      <time>1468261097.000007</time>
+      <message>&lt;@U1JF6H4MC|hdowney&gt; uploaded a file: &lt;https://ssec-metobs.slack.com/files/hdowney/F1QM0NRH8/sparc_iop12_temp_direction.eps|SPARC IOP12 Temp:Direction.eps&gt;</message>
+    </item>
+    <item>
+      <name>hdowney</name>
+      <time>1468261095.000006</time>
+      <message>&lt;@U1JF6H4MC|hdowney&gt; uploaded a file: &lt;https://ssec-metobs.slack.com/files/hdowney/F1QLJRH1N/clamps_iop12_temp_direction.eps|CLAMPS IOP12 Temp:Direction.eps&gt;</message>
+    </item>
+    <item>
+      <name>hdowney</name>
+      <time>1468261085.000005</time>
+      <message>&lt;@U1JF6H4MC|hdowney&gt; uploaded a file: &lt;https://ssec-metobs.slack.com/files/hdowney/F1QLPP06B/clamps_iop2_temp_direction.eps|CLAMPS IOP2 Temp:Direction.eps&gt;</message>
+    </item>
+    <item>
+      <name>hdowney</name>
+      <time>1468261083.000004</time>
+      <message>&lt;@U1JF6H4MC|hdowney&gt; uploaded a file: &lt;https://ssec-metobs.slack.com/files/hdowney/F1QLPNMHD/sparc_iop2_temp_direction.eps|SPARC IOP2 Temp:Direction.eps&gt;</message>
+    </item>
+    <item>
+      <name>tjwagner</name>
+      <time>1468255452.000003</time>
+      <message>Looks good!</message>
+    </item>
+    <item>
+      <name>hdowney</name>
+      <time>1468253214.000002</time>
+      <message>&lt;@U1JF6H4MC|hdowney&gt; uploaded a file: &lt;https://ssec-metobs.slack.com/files/hdowney/F1QHKUKSP/clamps_comparison.png|CLAMPS comparison.png&gt;</message>
+    </item>
+    <item>
+      <name>tjwagner</name>
+      <time>1468010889.000215</time>
+      <message>The barbs are in m/s, I believe.</message>
+    </item>
+    <item>
+      <name>tjwagner</name>
+      <time>1468010845.000214</time>
+      <message>the intensity parameter is a signal to noise parameter.  I chose a cutoff of 1.04 by looking at a histogram of the intensity of all of the data for that day and choosing an inflection point.</message>
+    </item>
+    <item>
+      <name>hdowney</name>
+      <time>1468006206.000213</time>
+      <message>&lt;@U1P8QHRHU&gt;: Also, what scale did you use for the barbs?</message>
+    </item>
+    <item>
+      <name>hdowney</name>
+      <time>1468005751.000212</time>
+      <message>&lt;@U1P8QHRHU&gt;: What process/value did you use to mask some of the data on that plot?</message>
+    </item>
+    <item>
+      <name>hdowney</name>
+      <time>1468004483.000211</time>
+      <message>&lt;@U1JF6H4MC|hdowney&gt; uploaded a file: &lt;https://ssec-metobs.slack.com/files/hdowney/F1Q4B3WE4/clamps_comparison_2.eps|CLAMPS comparison 2.eps&gt;</message>
+    </item>
+    <item>
+      <name>gero</name>
+      <time>1467999190.000210</time>
+      <message>&lt;@U0B32PNMU|gero&gt; uploaded a file: &lt;https://ssec-metobs.slack.com/files/gero/F1Q3J1XJ9/convincing.png|convincing&gt;</message>
+    </item>
+    <item>
+      <name>gero</name>
+      <time>1467999064.000209</time>
+      <message>And please label axes</message>
+    </item>
+    <item>
+      <name>gero</name>
+      <time>1467999058.000208</time>
+      <message>If you&#8217;re working with the same dataset, you should be able make the plot look nearly identical, to convince yourself that you&#8217;re processing and plotting the data correctly</message>
+    </item>
+    <item>
+      <name>hdowney</name>
+      <time>1467992742.000207</time>
+      <message>&lt;@U1JF6H4MC|hdowney&gt; uploaded a file: &lt;https://ssec-metobs.slack.com/files/hdowney/F1Q238JR4/clamps_comparison.png|CLAMPS comparison.png&gt;</message>
+    </item>
+    <item>
+      <name>tjwagner</name>
+      <time>1467918686.000206</time>
+      <message>&lt;@U1P8QHRHU|tjwagner&gt; uploaded a file: &lt;https://ssec-metobs.slack.com/files/tjwagner/F1PML70EP/corrected_clamps.png|corrected_clamps.png&gt; and commented: This is from 13 July</message>
+    </item>
+    <item>
+      <name>hdowney</name>
+      <time>1467913757.000205</time>
+      <message>&lt;@U1P8QHRHU&gt;: Could you send me one of the LLJ plots you showed us yesterday, to make sure our algorithms produce the same results?</message>
+    </item>
+    <item>
+      <name>hdowney</name>
+      <time>1467911721.000204</time>
+      <message>&lt;@U1JF6H4MC|hdowney&gt; uploaded a file: &lt;https://ssec-metobs.slack.com/files/hdowney/F1PL947CK/sparc_iop4_temp_direction.eps|SPARC IOP4 Temp:Direction.eps&gt;</message>
+    </item>
+    <item>
+      <name>hdowney</name>
+      <time>1467911716.000203</time>
+      <message>&lt;@U0B32PNMU&gt; &lt;@U1P8QHRHU&gt; Here&#8217;s an attempt at plotting barbs and temperature together:</message>
+    </item>
+    <item>
+      <name>hdowney</name>
+      <time>1467832045.000202</time>
+      <message>&lt;@U1JF6H4MC|hdowney&gt; uploaded a file: &lt;https://ssec-metobs.slack.com/files/hdowney/F1PBRT78Q/sparc_iop14_ws.png|SPARC IOP14 WS.png&gt;</message>
+    </item>
+    <item>
+      <name>hdowney</name>
+      <time>1467832035.000201</time>
+      <message>Well, here&#8217;s one cross section:</message>
+    </item>
+    <item>
+      <name>tjwagner</name>
+      <time>1467830507.000200</time>
+      <message>Right now, i think the simpler and better option is to go for time/height cross sections of wind speed, rather than looking at barbs.  I would wager that Python&#8217;s method for plotting barbs (which looks to be included in matplotlib) is a lot less onerous than Matlab&#8217;s (which cannot be done natively and instead is done by drawing a metric-ton of tiny line segments)</message>
+    </item>
+    <item>
+      <name>gero</name>
+      <time>1467829368.000199</time>
+      <message>&lt;@U1P8QHRHU&gt;: Could you send Henry your matlab code that you used to plot the wind speed and direction plots that you showed us, as well as some example output, then Henry can convert it to python and go from there</message>
+    </item>
+    <item>
+      <name>tjwagner</name>
+      <time>1467828029.000198</time>
+      <message>Seeing as the archive shows that the CLAMPS vertical velocity data was updated today, that&#8217;s likely.</message>
+    </item>
+    <item>
+      <name>hdowney</name>
+      <time>1467827811.000197</time>
+      <message>It doesn&#8217;t look like the CLAMPS data is up on the archive right now. Could it be being fixed?</message>
+    </item>
+    <item>
+      <name>tjwagner</name>
+      <time>1467827166.000196</time>
+      <message>VAD stands for Velocity Azimuth Display, and is named for finding the velocity along specific azimuths, then doing the Pythagorean math to convert that into a two dimensional wind vector.  All that math is done for you, so you can just play with the velocities that come out of it.</message>
+    </item>
+    <item>
+      <name>tjwagner</name>
+      <time>1467827002.000195</time>
+      <message>The VAD data is the horizontal winds.</message>
+    </item>
+    <item>
+      <name>tjwagner</name>
+      <time>1467826973.000194</time>
+      <message>I mean, they&#8217;re both messed up, but SPARC is predictably so,</message>
+    </item>
+    <item>
+      <name>tjwagner</name>
+      <time>1467826951.000193</time>
+      <message>SPARC is the simple one.  CLAMPS is the messed up one</message>
+    </item>
+    <item>
+      <name>gero</name>
+      <time>1467826947.000192</time>
+      <message>CLAMPS is off by 180 deg, and has the def/radian mixup</message>
+    </item>
+    <item>
+      <name>gero</name>
+      <time>1467826932.000191</time>
+      <message>SPARC is off by 180 deg</message>
+    </item>
+    <item>
+      <name>gero</name>
+      <time>1467826921.000190</time>
+      <message>Let me check.  You can also ask &lt;@U1P8QHRHU&gt;</message>
+    </item>
+    <item>
+      <name>hdowney</name>
+      <time>1467826881.000189</time>
+      <message>Also, was the one with the degree/radian mixup CLAMPS or SPARC?</message>
+    </item>
+    <item>
+      <name>hdowney</name>
+      <time>1467826176.000188</time>
+      <message>Or both?</message>
+    </item>
+    <item>
+      <name>hdowney</name>
+      <time>1467826170.000187</time>
+      <message>&lt;@U0B32PNMU&gt; Is the wind data I need from the archive the VAD data or the vertical data?</message>
+    </item>
+    <item>
+      <name>tjwagner</name>
+      <time>1467821217.000186</time>
+      <message>&lt;@U1P8QHRHU|tjwagner&gt; has joined the channel</message>
+    </item>
+    <item>
+      <name>dennyhackel</name>
+      <time>1467821207.000185</time>
+      <message>&lt;@U1P8QHRHU&gt;: this is where Henry and Jon are working</message>
+    </item>
+    <item>
+      <name>hdowney</name>
+      <time>1467740500.000184</time>
+      <message>&lt;@U1JF6H4MC|hdowney&gt; uploaded a file: &lt;https://ssec-metobs.slack.com/files/hdowney/F1P07C9NK/fp3_poster.pdf|FP3 Poster.pdf&gt;</message>
+    </item>
+    <item>
+      <name>hdowney</name>
+      <time>1467740492.000183</time>
+      <message>&lt;@U0B32PNMU&gt; Here&#8217;s the version with the new changes:</message>
+    </item>
+    <item>
+      <name>gero</name>
+      <time>1467733470.000182</time>
+      <message>I&#8217;ll send this Dave Turner to see what he thinks</message>
+    </item>
+    <item>
+      <name>gero</name>
+      <time>1467733455.000181</time>
+      <message>This looks good!  Just a few minor changes I can think of.</message>
+    </item>
+    <item>
+      <name>hdowney</name>
+      <time>1467732903.000180</time>
+      <message>&lt;@U1JF6H4MC|hdowney&gt; uploaded a file: &lt;https://ssec-metobs.slack.com/files/hdowney/F1NTX2KB6/fp3_poster.pdf|FP3 Poster.pdf&gt;</message>
+    </item>
+    <item>
+      <name>hdowney</name>
+      <time>1467732892.000179</time>
+      <message>&lt;@U0B32PNMU&gt; Here&#8217;s the changed version:</message>
+    </item>
+    <item>
+      <name>gero</name>
+      <time>1467400094.000178</time>
+      <message>I&#8217;ll print out a copy and annotate it with some changes</message>
+    </item>
+    <item>
+      <name>gero</name>
+      <time>1467400081.000177</time>
+      <message>Very nice</message>
+    </item>
+    <item>
+      <name>hdowney</name>
+      <time>1467398447.000176</time>
+      <message>Anything I should change?</message>
+    </item>
+    <item>
+      <name>hdowney</name>
+      <time>1467398441.000175</time>
+      <message>&lt;@U1JF6H4MC|hdowney&gt; uploaded a file: &lt;https://ssec-metobs.slack.com/files/hdowney/F1N86FWUA/fp3_data_display.pdf|FP3 Data Display.pdf&gt;</message>
+    </item>
+    <item>
+      <name>hdowney</name>
+      <time>1467398430.000174</time>
+      <message>&lt;@U0B32PNMU&gt; Here&#8217;s a first draft of the poster:</message>
+    </item>
+    <item>
+      <name>gero</name>
+      <time>1467316112.000172</time>
+      <message>&lt;https://dl.dropboxusercontent.com/u/58246252/temp1/IMG_0552.JPG&gt;</message>
+    </item>
+    <item>
+      <name>gero</name>
+      <time>1467316105.000170</time>
+      <message>&lt;https://dl.dropboxusercontent.com/u/58246252/temp1/IMG_0548.JPG&gt;</message>
+    </item>
+    <item>
+      <name>gero</name>
+      <time>1467316104.000169</time>
+      <message>Photos of the v2 AERI:</message>
+    </item>
+    <item>
+      <name>gero</name>
+      <time>1467316073.000167</time>
+      <message>&lt;https://dl.dropboxusercontent.com/u/58246252/temp1/aerioe_sonde.png&gt;</message>
+    </item>
+    <item>
+      <name>gero</name>
+      <time>1467316072.000166</time>
+      <message>AERIoe example.  Not the best, might pick a different one later</message>
+    </item>
+    <item>
+      <name>gero</name>
+      <time>1467315749.000165</time>
+      <message>&lt;https://dl.dropboxusercontent.com/u/58246252/temp1/poster%20text.txt&gt;</message>
+    </item>
+    <item>
+      <name>gero</name>
+      <time>1467315749.000164</time>
+      <message>Here is draft text for the poster</message>
+    </item>
+    <item>
+      <name>dennyhackel</name>
+      <time>1467311428.000163</time>
+      <message>&lt;@U07HKAP46&gt;: can you help Henry install software onto dnld?</message>
+    </item>
+    <item>
+      <name>gero</name>
+      <time>1467311387.000162</time>
+      <message>&lt;https://dl.dropboxusercontent.com/u/58246252/temp1/M-AERI%20poster.zip&gt;</message>
+    </item>
+    <item>
+      <name>gero</name>
+      <time>1467311379.000161</time>
+      <message>&lt;https://dl.dropboxusercontent.com/u/58246252/temp1/PECAN%20poster.zip&gt;</message>
+    </item>
+    <item>
+      <name>hdowney</name>
+      <time>1467309959.000160</time>
+      <message>Also, I need admin access to install InDesign. Could someone help me with that?</message>
+    </item>
+    <item>
+      <name>hdowney</name>
+      <time>1467307433.000159</time>
+      <message>&lt;@U1JF6H4MC|hdowney&gt; uploaded a file: &lt;https://ssec-metobs.slack.com/files/hdowney/F1MRVQV4H/fp3_wv.eps|FP3 WV.eps&gt;</message>
+    </item>
+    <item>
+      <name>hdowney</name>
+      <time>1467307427.000158</time>
+      <message>&lt;@U1JF6H4MC|hdowney&gt; uploaded a file: &lt;https://ssec-metobs.slack.com/files/hdowney/F1MRPDJAH/fp3_temp.eps|FP3 Temp.eps&gt;</message>
+    </item>
+    <item>
+      <name>mwestphall</name>
+      <time>1467301882.000157</time>
+      <message>Not sure how long it lasts for</message>
+    </item>
+  </data>
+</root>

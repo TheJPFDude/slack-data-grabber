@@ -1,0 +1,145 @@
+<root>
+  <data>
+    <item>
+      <name>davidh</name>
+      <time>1467142103.000002</time>
+      <message>interesting idea: &lt;https://www.aerobatic.com/blog/a-serverless-cms-architecture&gt;</message>
+    </item>
+    <item>
+      <name>davidh</name>
+      <time>1466424857.000002</time>
+      <message>&lt;@U03MSAYMY&gt; and &lt;@U038YQSQN&gt;: something I put together on my flight this morning: &lt;https://docs.google.com/a/wisc.edu/document/d/1jQ8Dq1HaqszQOBi72w-ZbRqXfI1U2KpYS5PCv7iPVmg/edit?usp=sharing&gt;</message>
+    </item>
+    <item>
+      <name>elikrenzke</name>
+      <time>1464708284.000003</time>
+      <message>&lt;@U1D0W6EVB|elikrenzke&gt; has joined the channel</message>
+    </item>
+    <item>
+      <name>davidh</name>
+      <time>1464708268.000002</time>
+      <message>&lt;@U1D0W6EVB&gt;:</message>
+    </item>
+    <item>
+      <name>davidh</name>
+      <time>1463678140.000004</time>
+      <message>hoping to add buoy in the next hour or so to the current DB</message>
+    </item>
+    <item>
+      <name>davidh</name>
+      <time>1463678106.000002</time>
+      <message>&lt;@U038YQSQN&gt;: FYI I have a influxdb.py in the mendotabuoy and aosstower repos now that hold the code I&#8217;m using for continuous inserts to InfluxDB</message>
+    </item>
+    <item>
+      <name>davidh</name>
+      <time>1463605289.000003</time>
+      <message>I think based on needing/wanting to query for both buoy and tower fields in the same query it makes the most sense to have them in the same measurement with multiple fields.</message>
+    </item>
+    <item>
+      <name>davidh</name>
+      <time>1463605158.000002</time>
+      <message>&lt;@U038YQSQN&gt;: FYI my quick test shows that `select * from metobs.one_hour.metobs where inst=&#8216;tower&#8217;` also returns the fields for the Buoy with `null` fields.</message>
+    </item>
+    <item>
+      <name>brucef</name>
+      <time>1463515265.000022</time>
+      <message>heading out for a run ... bbl</message>
+    </item>
+    <item>
+      <name>brucef</name>
+      <time>1463515252.000021</time>
+      <message>perhaps it makes more sense to separate out the limno data from the met data from the engineering data</message>
+    </item>
+    <item>
+      <name>brucef</name>
+      <time>1463515196.000020</time>
+      <message>it smells funny</message>
+    </item>
+    <item>
+      <name>brucef</name>
+      <time>1463515185.000019</time>
+      <message>I'm not sure whether it matters if you have all those fields in the same mesurement</message>
+    </item>
+    <item>
+      <name>davidh</name>
+      <time>1463514897.000017</time>
+      <message>yeah for each set of symbols right? But I can still save them to the same `metobs.one_year.metobs_{duration}` measurement I think</message>
+    </item>
+    <item>
+      <name>brucef</name>
+      <time>1463514828.000016</time>
+      <message>I think you need two separate CQs for the tower and buoy data</message>
+    </item>
+    <item>
+      <name>brucef</name>
+      <time>1463514784.000015</time>
+      <message>oh wait, I think your CQ is incorrect</message>
+    </item>
+    <item>
+      <name>davidh</name>
+      <time>1463514293.000014</time>
+      <message>for example I wonder if I did `select * from metobs.one_year.metobs_1m where inst=&#8216;tower&#8217;` if it would include buoy fields because they are technically in the same measurement/table</message>
+    </item>
+    <item>
+      <name>davidh</name>
+      <time>1463514257.000013</time>
+      <message>it does, just ugly. I need to test it with buoy data (&lt;@U03MSAYMY&gt; needs it for trying out some stuff with his API he&#8217;s trying) because I&#8217;m wondering if it returns empty fields for the instrument you aren&#8217;t asking for...</message>
+    </item>
+    <item>
+      <name>brucef</name>
+      <time>1463514201.000012</time>
+      <message>does that not work?</message>
+    </item>
+    <item>
+      <name>davidh</name>
+      <time>1463513631.000011</time>
+      <message>I&#8217;m experimenting with one measurement that has all fields entered per line. So your CQs end up like this:
+```	"CREATE CONTINUOUS QUERY cq_1m ON metobs BEGIN SELECT mean(precip) AS precip, mean(wind_dir) AS wind_dir, mean(air_temp_4) AS air_temp_4, mean(wind_speed) AS wind_speed, mean(dewpoint) AS dewpoint, mean(paro_pressure_period) AS paro_pressure_period, mean(air_temp_3) AS air_temp_3, mean(paro_air_temp_period) AS paro_air_temp_period, mean(air_temp) AS air_temp, mean(rh_shield_freq) AS rh_shield_freq, mean(paro_cal_sig) AS paro_cal_sig, mean(box_pressure) AS box_pressure, mean(rtd_shied_freq) AS rtd_shied_freq, mean(accum_precip) AS accum_precip, mean(air_temp_2) AS air_temp_2, mean(air_temp_6_3m) AS air_temp_6_3m, mean(air_temp_5) AS air_temp_5, mean(box_temp) AS box_temp, mean(rh) AS rh, mean(pressure) AS pressure, mean(solar_flux) AS solar_flux, mean(box_air_temp) AS box_air_temp, mean(altimeter) AS altimeter, mean(box_rh) AS box_rh, mean(paro_air_temp) AS paro_air_temp INTO metobs.one_year.metobs_1m FROM metobs.one_hour.metobs GROUP BY time(1m), inst, site END&#8221;```</message>
+    </item>
+    <item>
+      <name>davidh</name>
+      <time>1463513599.000010</time>
+      <message>&lt;@U038YQSQN&gt;: FYI I&#8217;m testing a new InfluxDB schema based on what the mailing list said and my biggest problem with it is the continuous queries...</message>
+    </item>
+    <item>
+      <name>davidh</name>
+      <time>1463513539.000009</time>
+      <message>&lt;@U03CHDXBN|davidh&gt; set the channel topic: InfluxDB and some kind of schema</message>
+    </item>
+    <item>
+      <name>davidh</name>
+      <time>1463513497.000008</time>
+      <message>not general, not random, but software</message>
+    </item>
+    <item>
+      <name>brucef</name>
+      <time>1463513471.000007</time>
+      <message>&lt;@U038YQSQN|brucef&gt; has joined the channel</message>
+    </item>
+    <item>
+      <name>coda</name>
+      <time>1463513471.000006</time>
+      <message>&lt;@U03L85HNF|coda&gt; has joined the channel</message>
+    </item>
+    <item>
+      <name>rayg</name>
+      <time>1463513471.000005</time>
+      <message>&lt;@U19B60VQQ|rayg&gt; has joined the channel</message>
+    </item>
+    <item>
+      <name>davidh</name>
+      <time>1463513471.000004</time>
+      <message>&lt;@U03CHDXBN|davidh&gt; set the channel purpose: Discuss software used with meteorological instrumentation</message>
+    </item>
+    <item>
+      <name>kgao9</name>
+      <time>1463513470.000003</time>
+      <message>&lt;@U03MSAYMY|kgao9&gt; has joined the channel</message>
+    </item>
+    <item>
+      <name>davidh</name>
+      <time>1463513470.000002</time>
+      <message>&lt;@U03CHDXBN|davidh&gt; has joined the channel</message>
+    </item>
+  </data>
+</root>

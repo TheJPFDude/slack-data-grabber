@@ -1,0 +1,504 @@
+<root>
+  <data>
+    <item>
+      <name>davidh</name>
+      <time>1468874689.000045</time>
+      <message>ok you could just make a script to make a fake directory structure and create empty files based on what we have already, but whatever works for you</message>
+    </item>
+    <item>
+      <name>kgao9</name>
+      <time>1468874284.000044</time>
+      <message>I'll just base the order form on what we have and update it as we go. I think I'll implement the data stream later when the structure's more robust so I don't waste too much time debugging.</message>
+    </item>
+    <item>
+      <name>kgao9</name>
+      <time>1468874058.000043</time>
+      <message>Ah, ok... At least I can get a sense of what the directory will look like</message>
+    </item>
+    <item>
+      <name>davidh</name>
+      <time>1468873947.000042</time>
+      <message>eh nevermind you&#8217;d have to be local to explore what&#8217;s available</message>
+    </item>
+    <item>
+      <name>davidh</name>
+      <time>1468873930.000041</time>
+      <message>its not operational but this could be another test directory for your order form if you don&#8217;t want to make your own test directory</message>
+    </item>
+    <item>
+      <name>davidh</name>
+      <time>1468873892.000040</time>
+      <message>at least I&#8217;m trying it out for now</message>
+    </item>
+    <item>
+      <name>davidh</name>
+      <time>1468873879.000039</time>
+      <message>btw &lt;@U03MSAYMY&gt; I&#8217;ve started archiving AERI in the new directory structure: &lt;http://metobs.ssec.wisc.edu/pub/cache/aoss/aeri/level_00/version_00/2016/07/17/&gt;</message>
+    </item>
+    <item>
+      <name>elikrenzke</name>
+      <time>1468873736.000037</time>
+      <message>Well, you have been talking about the project being mobile friendly, right? :grinning:</message>
+    </item>
+    <item>
+      <name>davidh</name>
+      <time>1468873586.000036</time>
+      <message>&lt;@U038Z6LG9&gt;: can we put that on 1025 somehow?</message>
+    </item>
+    <item>
+      <name>kgao9</name>
+      <time>1468873568.000035</time>
+      <message>Whoah... My phone's too old... If you buy me a new phone, I'll play :smile:</message>
+    </item>
+    <item>
+      <name>davidh</name>
+      <time>1468873554.000034</time>
+      <message>:mask:</message>
+    </item>
+    <item>
+      <name>davidh</name>
+      <time>1468873527.000033</time>
+      <message>wait nevermind, I probably can&#8217;t do that</message>
+    </item>
+    <item>
+      <name>elikrenzke</name>
+      <time>1468873518.000032</time>
+      <message>(He's secretly red though.)</message>
+    </item>
+    <item>
+      <name>davidh</name>
+      <time>1468873510.000031</time>
+      <message>wtf Kenny you&#8217;re fired</message>
+    </item>
+    <item>
+      <name>elikrenzke</name>
+      <time>1468873499.000030</time>
+      <message>I already asked him and he hasn't been playing. :slightly_smiling_face:</message>
+    </item>
+    <item>
+      <name>dennyhackel</name>
+      <time>1468873482.000029</time>
+      <message>what team is &lt;@U03MSAYMY&gt;</message>
+    </item>
+    <item>
+      <name>elikrenzke</name>
+      <time>1468873299.000028</time>
+      <message>True. It's okay that you're blue though, we all make mistakes.</message>
+    </item>
+    <item>
+      <name>davidh</name>
+      <time>1468873242.000027</time>
+      <message>&lt;@U1D0W6EVB&gt;: now we just need a gym put on the SSEC so we can fight over it</message>
+    </item>
+    <item>
+      <name>davidh</name>
+      <time>1468869445.000026</time>
+      <message>and just return all available files</message>
+    </item>
+    <item>
+      <name>davidh</name>
+      <time>1468869438.000025</time>
+      <message>You could also not display this for a early version</message>
+    </item>
+    <item>
+      <name>davidh</name>
+      <time>1468869425.000024</time>
+      <message>ARM&#8217;s streams are similar to Sirta&#8217;s parameter list. For us this isn&#8217;t going to be available right now because we don&#8217;t support generating files on the fly. That would be something for this form to do in the future. For now maybe call it stream and allow them to select which types of files they want. Not sure the best way to display the file choices (maybe file pattern like &#8220;&lt;http://AEYYMMDD.nc|AEYYMMDD.nc&gt;&#8221; or &#8220;&lt;http://rig_tower.YYYY-MM-DD.nc|rig_tower.YYYY-MM-DD.nc&gt;&#8221;).</message>
+    </item>
+    <item>
+      <name>kgao9</name>
+      <time>1468869258.000023</time>
+      <message>&lt;@U03CHDXBN&gt; For the order form, I don't know what the Variable/Data Stream is. Is it like the variables in the files or like Sirta's parameter list?</message>
+    </item>
+    <item>
+      <name>kgao9</name>
+      <time>1468862538.000022</time>
+      <message>Sounds good</message>
+    </item>
+    <item>
+      <name>davidh</name>
+      <time>1468862528.000021</time>
+      <message>yeah MetObs Data Request Application, let&#8217;s go with that and see if anyone complains later</message>
+    </item>
+    <item>
+      <name>davidh</name>
+      <time>1468862488.000020</time>
+      <message>I guess I did tell you to put the file ordering stuff on this same flask app right? so maybe realtime isn&#8217;t a good word to use, but then again this specific documentation is just for the realtime (influxdb-based) api</message>
+    </item>
+    <item>
+      <name>davidh</name>
+      <time>1468862413.000019</time>
+      <message>hm not bad&#8230;thinking&#8230;thinking...</message>
+    </item>
+    <item>
+      <name>kgao9</name>
+      <time>1468862338.000018</time>
+      <message>MetObs Data Request Application?</message>
+    </item>
+    <item>
+      <name>davidh</name>
+      <time>1468862200.000017</time>
+      <message>hhmm I suppose it would be nice if I gave you all these changes at once, but I keep thinking of them after you&#8217;ve already made other changes&#8230;How about changing the title to &#8220;MetObs Realtime Data API&#8221;. Other name suggestions?</message>
+    </item>
+    <item>
+      <name>kgao9</name>
+      <time>1468862136.000016</time>
+      <message>Got that change done. Anything else I should consider?</message>
+    </item>
+    <item>
+      <name>davidh</name>
+      <time>1468861330.000015</time>
+      <message>thanks</message>
+    </item>
+    <item>
+      <name>kgao9</name>
+      <time>1468861309.000014</time>
+      <message>That shouldn't change too much</message>
+    </item>
+    <item>
+      <name>kgao9</name>
+      <time>1468861297.000013</time>
+      <message>Hmm... Ok...</message>
+    </item>
+    <item>
+      <name>davidh</name>
+      <time>1468861272.000012</time>
+      <message>yeah .csv</message>
+    </item>
+    <item>
+      <name>davidh</name>
+      <time>1468861154.000011</time>
+      <message>that way the &#8220;file&#8221; in the url is &#8220;data.csv&#8221; instead of &#8220;data.ascii&#8221; which I think is better. Let me ask Erik he looks at a lot of different data files</message>
+    </item>
+    <item>
+      <name>davidh</name>
+      <time>1468861098.000010</time>
+      <message>sorry I just thought of another thing, maybe it should be &#8220;csv&#8221; instead of &#8220;ascii"</message>
+    </item>
+    <item>
+      <name>davidh</name>
+      <time>1468861035.000009</time>
+      <message>sounds good</message>
+    </item>
+    <item>
+      <name>kgao9</name>
+      <time>1468861021.000008</time>
+      <message>I made a note of that in the callback parameter as well</message>
+    </item>
+    <item>
+      <name>kgao9</name>
+      <time>1468861001.000007</time>
+      <message>I removed the jsonp format from the list at the top, and I mentioned CORS in the json format because the flaks application returns it with that format only.</message>
+    </item>
+    <item>
+      <name>kgao9</name>
+      <time>1468859901.000006</time>
+      <message>Hmm... Yeah, I should mention CORS. I'll remove jsonp from the base url section. Must've missed it earlier</message>
+    </item>
+    <item>
+      <name>davidh</name>
+      <time>1468859674.000005</time>
+      <message>&lt;@U03MSAYMY&gt;: maybe remove the &#8220;jsonp&#8221; format from the list at the top. I don&#8217;t think it should be a supported format like `data.jsonp` (not sure how you implemented it), but as you stated in the callback part it makes it a jsonp call. Also maybe you should mention CORS in there somewhere, maybe in the callback part too?</message>
+    </item>
+    <item>
+      <name>davidh</name>
+      <time>1468857999.000004</time>
+      <message>ok I&#8217;ll take a look</message>
+    </item>
+    <item>
+      <name>kgao9</name>
+      <time>1468857459.000003</time>
+      <message>BTW, the documentation is being hosted at &lt;http://bikini.ssec.wisc.edu:5000/api/&gt;</message>
+    </item>
+    <item>
+      <name>kgao9</name>
+      <time>1468857429.000002</time>
+      <message>&lt;@U03CHDXBN&gt; I fixed the typos and removed the last sentence under getting help. Any other suggestions?</message>
+    </item>
+    <item>
+      <name>kgao9</name>
+      <time>1468534434.000011</time>
+      <message>Thanks. See you then</message>
+    </item>
+    <item>
+      <name>davidh</name>
+      <time>1468534421.000010</time>
+      <message>Feel better, teeth pulling is always fun</message>
+    </item>
+    <item>
+      <name>davidh</name>
+      <time>1468534399.000009</time>
+      <message>:thumbsup:</message>
+    </item>
+    <item>
+      <name>kgao9</name>
+      <time>1468534376.000008</time>
+      <message>Just got my teeth pulled so I'm resting at home. I'll be back on Monday. Umm... So the side I used bootstrap for with a style='position: fixed', so it stays there when the user scolls down. The other stuff I'll fix when I get back on Monday.</message>
+    </item>
+    <item>
+      <name>davidh</name>
+      <time>1468517467.000007</time>
+      <message>Can you also remove the last sentence under Getting Help about Gamis news</message>
+    </item>
+    <item>
+      <name>davidh</name>
+      <time>1468517414.000006</time>
+      <message>should be `AOSS Tower`</message>
+    </item>
+    <item>
+      <name>davidh</name>
+      <time>1468517405.000005</time>
+      <message>similarly at the top of the page with `Rig Tower`</message>
+    </item>
+    <item>
+      <name>davidh</name>
+      <time>1468517358.000004</time>
+      <message>typo/copy-paste error on `site`. The tower&#8217;s site is aoss not rig</message>
+    </item>
+    <item>
+      <name>davidh</name>
+      <time>1468517140.000003</time>
+      <message>&lt;@U03MSAYMY&gt;: what are you using for the menu on the side (bootstrap?) or did you do that yourself?</message>
+    </item>
+    <item>
+      <name>kgao9</name>
+      <time>1468511252.000002</time>
+      <message>&lt;@U03CHDXBN&gt; I updated the apiDocs.</message>
+    </item>
+    <item>
+      <name>kgao9</name>
+      <time>1468442160.000005</time>
+      <message>So it will be made available in the app. I made it separate for now because you're not in the building. I suppose I could group json and jsonp into one format with a note on callback. Other than symbols, site, and inst, there's not really a difference between those two query strings. I should probably combine those. Ok, I'll work on that</message>
+    </item>
+    <item>
+      <name>davidh</name>
+      <time>1468440960.000004</time>
+      <message>This way the example URLs could be generated by the app instead of static links to bikini</message>
+    </item>
+    <item>
+      <name>davidh</name>
+      <time>1468440919.000003</time>
+      <message>Cool. After a quick skim: can json and jsonp be made in to one format (json) with a note on the callback parameter saying it will be a jsonp response (similarly coded in the api)? Is there any real difference between single and multiple instrument queries? Maybe it could be combined but make the destinction by saying site and inst are optional and how they change the symbol names. This could then be shown in an example. Lastly will this be made available as one of the api routes/views?</message>
+    </item>
+    <item>
+      <name>kgao9</name>
+      <time>1468440521.000002</time>
+      <message>&lt;@U03CHDXBN&gt; I finished a draft for the api's documentation. &lt;http://www.ssec.wisc.edu/~kgao/apiDocs/index.html&gt;.</message>
+    </item>
+    <item>
+      <name>kgao9</name>
+      <time>1468253594.000007</time>
+      <message>For influx V0.8, it had a query return limit of 100000. I'd imagine it's above that now.</message>
+    </item>
+    <item>
+      <name>kgao9</name>
+      <time>1468252978.000006</time>
+      <message>Got it</message>
+    </item>
+    <item>
+      <name>davidh</name>
+      <time>1468252949.000005</time>
+      <message>Sounds good, but maybe up it to 50000 for now. Does influxdb have a query return limit? Super important since some users of the current api dont think its weird to ask for 5 years of hourly data</message>
+    </item>
+    <item>
+      <name>kgao9</name>
+      <time>1468250558.000003</time>
+      <message>&lt;@U03CHDXBN&gt; I'm going to initially limit the api's payload to 10000 records, and if it goes over that, I'm going to return a 413 code with a retry-after message. We can talk about what the actual payload should be when you get back.</message>
+    </item>
+    <item>
+      <name>kgao9</name>
+      <time>1468246870.000002</time>
+      <message>&lt;@U03CHDXBN&gt; Left my timesheet on your desk</message>
+    </item>
+    <item>
+      <name>kgao9</name>
+      <time>1468010311.000027</time>
+      <message>&lt;@U03CHDXBN&gt; Got that done.</message>
+    </item>
+    <item>
+      <name>kgao9</name>
+      <time>1468006446.000026</time>
+      <message>Ok, I'll see if it works</message>
+    </item>
+    <item>
+      <name>davidh</name>
+      <time>1468006369.000024</time>
+      <message>ah found it: &lt;http://stackoverflow.com/questions/30717152/python-flask-how-to-set-response-header-for-all-responses&gt;</message>
+    </item>
+    <item>
+      <name>davidh</name>
+      <time>1468006345.000023</time>
+      <message>and if you haven&#8217;t done python decorators its a good thing to learn (I guess)</message>
+    </item>
+    <item>
+      <name>davidh</name>
+      <time>1468006309.000022</time>
+      <message>could make a decorator</message>
+    </item>
+    <item>
+      <name>davidh</name>
+      <time>1468006301.000021</time>
+      <message>hm but maybe its not possible</message>
+    </item>
+    <item>
+      <name>davidh</name>
+      <time>1468006276.000020</time>
+      <message>not sure the best way to do this in flask</message>
+    </item>
+    <item>
+      <name>davidh</name>
+      <time>1468006258.000018</time>
+      <message>but note that however you do it, it should be done outside of the &#8220;view&#8221; code so that you don&#8217;t have to repeat it for every route/format.</message>
+    </item>
+    <item>
+      <name>davidh</name>
+      <time>1468006229.000016</time>
+      <message>`&lt;http://stackoverflow.com/questions/25860304/how-do-i-set-response-headers-in-flask&gt;` will probably help</message>
+    </item>
+    <item>
+      <name>kgao9</name>
+      <time>1468006194.000015</time>
+      <message>Ah, ok. I'll try to figure out how to do that</message>
+    </item>
+    <item>
+      <name>davidh</name>
+      <time>1468006162.000014</time>
+      <message>kind of like how the CORS stuff does `Access-Control-Allow-Origin`</message>
+    </item>
+    <item>
+      <name>davidh</name>
+      <time>1468006140.000013</time>
+      <message>ok, so one thing is that the `X-Metobs-Api-Version` I think is supposed to be in the HTTP Header not the header of the JSON.</message>
+    </item>
+    <item>
+      <name>kgao9</name>
+      <time>1468006086.000012</time>
+      <message>You could also see the javascript code using the sources tab in developer tools on chrome</message>
+    </item>
+    <item>
+      <name>kgao9</name>
+      <time>1468006045.000011</time>
+      <message>Yeah... haha</message>
+    </item>
+    <item>
+      <name>davidh</name>
+      <time>1468006042.000010</time>
+      <message>got it</message>
+    </item>
+    <item>
+      <name>davidh</name>
+      <time>1468006037.000009</time>
+      <message>ah duh to the console</message>
+    </item>
+    <item>
+      <name>davidh</name>
+      <time>1468006008.000008</time>
+      <message>but I have a large scroll bar and no error messages in the developer tools</message>
+    </item>
+    <item>
+      <name>davidh</name>
+      <time>1468005891.000007</time>
+      <message>&lt;@U03MSAYMY&gt;: I just see the spinning gif</message>
+    </item>
+    <item>
+      <name>kgao9</name>
+      <time>1468004737.000006</time>
+      <message>Sounds good</message>
+    </item>
+    <item>
+      <name>davidh</name>
+      <time>1468004727.000005</time>
+      <message>(after this meeting)</message>
+    </item>
+    <item>
+      <name>davidh</name>
+      <time>1468004721.000004</time>
+      <message>ok im not on the ssec network yet, will check it in a bit</message>
+    </item>
+    <item>
+      <name>kgao9</name>
+      <time>1468004645.000003</time>
+      <message>&lt;http://www.ssec.wisc.edu/~kgao/cors/test_cors.html&gt; is pointing at the demo api on bikini - it just prints out the json to the console</message>
+    </item>
+    <item>
+      <name>kgao9</name>
+      <time>1468004515.000002</time>
+      <message>&lt;@U03CHDXBN&gt; Got the CORS request to work and I'm updating the meteorograms now.</message>
+    </item>
+    <item>
+      <name>davidh</name>
+      <time>1467917914.000114</time>
+      <message>:angry:</message>
+    </item>
+    <item>
+      <name>davidh</name>
+      <time>1467917905.000113</time>
+      <message>I probably won&#8217;t be in tomorrow&#8230;depending on if I can actually get my stuff working</message>
+    </item>
+    <item>
+      <name>davidh</name>
+      <time>1467917887.000112</time>
+      <message>sounds good</message>
+    </item>
+    <item>
+      <name>kgao9</name>
+      <time>1467917825.000111</time>
+      <message>I'm going to head out for the day. I'll be back tmr.</message>
+    </item>
+    <item>
+      <name>kgao9</name>
+      <time>1467915409.000110</time>
+      <message>Ah, ok</message>
+    </item>
+    <item>
+      <name>davidh</name>
+      <time>1467915272.000109</time>
+      <message>yeah, so I think flask-cors is the way to go. It might be a little more specific to flask, but it seems just as well maintained as the other package. Also because it is tied to flask it probably gets a lot more downloads which also means more contributors and people to find bugs. It also seems to stay outside of the &#8220;view&#8221; code which is really what we should be looking for (and why Bruce made a point to tell me to do CORS stuff in the middleware)</message>
+    </item>
+    <item>
+      <name>kgao9</name>
+      <time>1467915156.000108</time>
+      <message>So I guess whichever one is easier to use and maintain, then?</message>
+    </item>
+    <item>
+      <name>davidh</name>
+      <time>1467914992.000107</time>
+      <message>crap i don&#8217;t know</message>
+    </item>
+    <item>
+      <name>davidh</name>
+      <time>1467914987.000106</time>
+      <message>hm looks like the flask-cors package has almost 400k more downloads on pypi&#8230;may be the better option</message>
+    </item>
+    <item>
+      <name>davidh</name>
+      <time>1467914802.000105</time>
+      <message>2 years worth of development</message>
+    </item>
+    <item>
+      <name>kgao9</name>
+      <time>1467914789.000104</time>
+      <message>That's fine</message>
+    </item>
+    <item>
+      <name>davidh</name>
+      <time>1467914778.000103</time>
+      <message>&lt;@U03MSAYMY&gt;: sorry I linked you a really old version</message>
+    </item>
+    <item>
+      <name>davidh</name>
+      <time>1467914530.000102</time>
+      <message>I&#8217;m still trying to figure out how they work and if they are really that different</message>
+    </item>
+    <item>
+      <name>kgao9</name>
+      <time>1467914502.000101</time>
+      <message>Hmmm... ok</message>
+    </item>
+    <item>
+      <name>davidh</name>
+      <time>1467914435.000100</time>
+      <message>because it should add it as middleware</message>
+    </item>
+  </data>
+</root>
