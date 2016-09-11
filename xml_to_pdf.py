@@ -28,11 +28,8 @@ class PDFOrder(object):
         styles = styles['BodyText']
         styles.wordWrap = 'CJK'
 
-        users = {'U1K7XHHB8': 'bogeunchoi', 'U03MSAYMY': 'kgao9', 'U03CHDXBN': 'davidh', 'U07HKAP46': 'mwestphall',
-                 'U0B32PNMU': 'gero', 'U19B60VQQ': 'rayg', 'U1D0W6EVB': 'elikrenzke', 'U1JF6H4MC': 'hdowney',
-                 'U1P8QHRHU': 'tjwagner', 'U0B22TWGL': 'lstefanski', 'U038YQSQN': 'brucef', 'U038Z6LG9': 'dennyhackel',
-                 'U03L85HNF': 'coda', 'U04LDJXDC': 'eriko', 'U04K1G5UM': 'bobk', 'U055WJYAZ': 'cmrozoff',
-                 'U03CHKSRL': 'jthom', 'U04L98542': 'michellef', 'U04UUJSDX': 'nadias', 'USLACKBOT': 'slackbot'}
+        # Example user
+        users = {'U00000000': 'bogeunchoi'}
 
         data = []
         data.append(['Channel: ' + channelName])

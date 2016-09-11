@@ -1,21 +1,17 @@
 import lxml.etree as etree
 from slackclient import SlackClient
 
-SLACK_TOKEN = 'xoxp-3304842836-53269595382-58184294804-e62b549eea'
+SLACK_TOKEN = 'INSERT SLACK TOKEN HERE'
 
 slack_client = SlackClient(SLACK_TOKEN)
 
 # Change the channel's name here
-channelName = 'bogeunchoi'
+channelName = 'INSERT CHANNEL NAME HERE'
 
 # The user dictionary. If new user added, comment out the first if statement starting on line 88
 # and uncomment the other if statement starting on line 104. Then execute the program, find the new user
 # and his/her id, and then put the id and the username as a key/value pair in the users dictionary.
-users = {'U1K7XHHB8': 'bogeunchoi', 'U03MSAYMY': 'kgao9', 'U03CHDXBN': 'davidh', 'U07HKAP46': 'mwestphall',
-        'U0B32PNMU': 'gero', 'U19B60VQQ': 'rayg', 'U1D0W6EVB': 'elikrenzke', 'U1JF6H4MC': 'hdowney',
-        'U1P8QHRHU': 'tjwagner', 'U0B22TWGL': 'lstefanski', 'U038YQSQN': 'brucef', 'U038Z6LG9': 'dennyhackel',
-        'U03L85HNF': 'coda', 'U04LDJXDC': 'eriko', 'U04K1G5UM': 'bobk', 'U055WJYAZ': 'cmrozoff',
-        'U03CHKSRL': 'jthom', 'U04L98542': 'michellef', 'U04UUJSDX': 'nadias', 'USLACKBOT': 'slackbot'}
+users = {'U00000000': 'bogeunchoi'}
 
 # Used for getting public channel messages
 def list_channels():
@@ -27,11 +23,9 @@ def list_channels():
 # Used for getting public channel messages
 def get_messages():
     channels = list_channels()
-    # Number corresponds to channel (for SSEC MetObs group):
-    # 0 = aeri_software_issues, 1= downey_research, 2 = general, 3 = lblrtm,
-    # 4 = random, 5 = software, 6 = sparc, 7 = studentwork
+    # Number corresponds to channel: test to see which channel corresponds with each number
     # Change the number in the [] according to which channel you would like info from
-    c = channels[1]
+    c = channels[0]
 
     # Change the number of messages in the 'count' var where 100 currently is. 1000 is the max
     messages = slack_client.api_call("channels.history", channel=c.get('id'), count=100)
@@ -65,13 +59,13 @@ def make_xml_file():
     messages = get_messages()
     direct_messages = get_direct_messages()
 
-    # If you want direct messages, change every instance of messages to direct_messages (lines 70 and 74)
+    # If you want direct messages, change every instance of messages to direct_messages (lines 66 and 70)
     # and vice versa
-    if direct_messages:
+    if messages:
         root = etree.Element('root')
         data = etree.SubElement(root, 'data')
 
-        for m in direct_messages:
+        for m in messages:
             user = users.get(m['user'])
             item = etree.SubElement(data, 'item')
             etree.SubElement(item, 'name').text = user
@@ -89,14 +83,14 @@ if __name__ == '__main__':
     make_xml_file()
     print('XML file created')
 
-# Helper method for main in line 104
+# Helper method for main in line 101
 def list_users():
     users_call = slack_client.api_call("channels.list")
     if users_call.get('ok'):
         return users_call['channels']
     return None
 
-# Helper method for main in line 104
+# Helper method for main in line 101
 def get_users():
     users = list_users()
     return users
